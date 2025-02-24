@@ -604,7 +604,7 @@
         48467: function(e, t, s) {
             "use strict";
             s.r(t), t.default = {
-                src: "/_next/static/media/og.98d36987.png",
+                src: "./_next/static/media/og.98d36987.png",
                 height: 1080,
                 width: 1920,
                 blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAD1BMVEUMCggfHh8NEBZCQ1ArKCXrEyqCAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGUlEQVR4nGNgQAAmZiYIg5GZEcpggTIgAAAB1AATtJv2GAAAAABJRU5ErkJggg==",

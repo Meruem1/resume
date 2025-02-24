@@ -176,7 +176,7 @@
         }, "undefined" != typeof trustedTypes && trustedTypes.createPolicy && (o = trustedTypes.createPolicy("nextjs#bundler", o))), o
     }, b.tu = function(e) {
         return b.tt().createScriptURL(e)
-    }, b.p = "/_next/", f = {
+    }, b.p = "./_next/", f = {
         2272: 0,
         3608: 0,
         3358: 0,
@@ -222,7 +222,7 @@
 (function() {
     if (!/(?:^|;\s)__vercel_toolbar=1(?:;|$)/.test(document.cookie)) return;
     var s = document.createElement('script');
-    s.src = 'https://vercel.live/_next-live/feedback/feedback.js';
+    s.src = 'https://vercel.live./_next-live/feedback/feedback.js';
     s.setAttribute("data-explicit-opt-in", "true");
     s.setAttribute("data-cookie-opt-in", "true");
     ((document.head || document.documentElement).appendChild(s))

@@ -44,7 +44,7 @@
                     imgConf: {
                         deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
                         imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-                        path: "/_next/image",
+                        path: "./_next/image",
                         loader: "default",
                         dangerouslyAllowSVG: !1,
                         unoptimized: !1
@@ -172,7 +172,7 @@
             var n = r(26705),
                 o = r(27648),
                 a = {
-                    src: "/_next/static/media/black-button.6a71dfd1.png",
+                    src: "./_next/static/media/black-button.6a71dfd1.png",
                     height: 306,
                     width: 1090,
                     blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAMAAABSSm3fAAAAGFBMVEU8OjQqKiomJiY1NTU/QEJcW1RNTUtmXzJsYixcAAAAA3RSTlP88PDvqV3LAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAGklEQVR4nGNgYGVmZmZmYWJgYGdhY2BhZQQAAcIAM47b0ogAAAAASUVORK5CYII=",
@@ -180,7 +180,7 @@
                     blurHeight: 2
                 },
                 i = {
-                    src: "/_next/static/media/white-button.87f2b9b0.png",
+                    src: "./_next/static/media/white-button.87f2b9b0.png",
                     height: 306,
                     width: 1090,
                     blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAMAAABSSm3fAAAAG1BMVEXz8/Xm5uTu7N/m5unIx8bb2+Lf3+Lm3rPR0dQBvlM+AAAAA3RSTlP1+vuNRVdGAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAGklEQVR4nGNgZGFmZmBmY2BgYmflYGZlYQAAAcoANzx6ocUAAAAASUVORK5CYII=",

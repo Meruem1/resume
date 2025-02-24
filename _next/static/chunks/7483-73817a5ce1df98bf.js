@@ -472,7 +472,7 @@
                     children: s.map(e => (0, r.jsx)("link", {
                         precedence: "dynamic",
                         rel: "stylesheet",
-                        href: n.assetPrefix + "/_next/" + encodeURI(e),
+                        href: n.assetPrefix + "./_next/" + encodeURI(e),
                         as: "style"
                     }, e))
                 })
