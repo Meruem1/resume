@@ -512,7 +512,7 @@
                     i = document.currentScript,
                     a = Number(null != (e = null == i ? void 0 : i.dataset.sampleRate) ? e : 1),
                     o = null == i ? void 0 : i.dataset.dsn,
-                    u = (null == i ? void 0 : i.dataset.endpoint) || (o ? `https://vitals.vercel-insights.com/v2/vitals?dsn=${o}&ve=production` : "/_vercel/speed-insights/vitals"),
+                    u = (null == i ? void 0 : i.dataset.endpoint) || (o ? `https://vitals.vercel-insights.com/v2/vitals?dsn=${o}&ve=production` : "/./_vercel/speed-insights/vitals"),
                     c = () => {
                         var e, n;
                         if (0 === t.length || 1 !== a && Math.random() > a) return;

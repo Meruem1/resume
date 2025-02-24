@@ -344,7 +344,7 @@
                 r = s(89914),
                 o = s(20955);
             t.default = () => ((0, o.useEffect)(() => {
-                "preview" !== i.x.NEXT_PUBLIC_VERCEL_ENV && window === parent && (location.href = "/api/sanity/disable-draft")
+                "preview" !== i.x.NEXT_PUBLIC./_vercel_ENV && window === parent && (location.href = "/api/sanity/disable-draft")
             }, []), (0, n.jsx)(r.QB, {}))
         },
         70393: function(e, t, s) {
@@ -436,7 +436,7 @@
                 });
             let h = () => {
                 let e = (0, c.useSearchParams)();
-                return "production" !== d.x.NEXT_PUBLIC_VERCEL_ENV || e.has("dev-utils") ? (0, n.jsxs)(n.Fragment, {
+                return "production" !== d.x.NEXT_PUBLIC./_vercel_ENV || e.has("dev-utils") ? (0, n.jsxs)(n.Fragment, {
                     children: [(0, n.jsx)(a, {}), (0, n.jsx)("div", {
                         className: "fixed bottom-0 left-0 z-[10000000] text-xs text-white opacity-20 hover:opacity-100",
                         children: (0, n.jsxs)("div", {
@@ -558,10 +558,10 @@
                     NEXT_PUBLIC_SANITY_FORCE_USE_CDN: i.z.union([i.z.literal("true"), i.z.literal("false")]).optional().transform(e => {
                         if (e) return "true" === e
                     }),
-                    NEXT_PUBLIC_VERCEL_ENV: i.z.union([i.z.literal("development"), i.z.literal("preview"), i.z.literal("production")]),
-                    NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF: i.z.string().optional(),
-                    NEXT_PUBLIC_VERCEL_URL: i.z.string().optional(),
-                    NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA: i.z.string().optional(),
+                    NEXT_PUBLIC./_vercel_ENV: i.z.union([i.z.literal("development"), i.z.literal("preview"), i.z.literal("production")]),
+                    NEXT_PUBLIC./_vercel_GIT_COMMIT_REF: i.z.string().optional(),
+                    NEXT_PUBLIC./_vercel_URL: i.z.string().optional(),
+                    NEXT_PUBLIC./_vercel_GIT_COMMIT_SHA: i.z.string().optional(),
                     NEXT_PUBLIC_POSTHOG_KEY: i.z.string().min(1)
                 },
                 runtimeEnv: {
@@ -569,10 +569,10 @@
                     NEXT_PUBLIC_SANITY_PROJECT_ID: "elahh3kf",
                     NEXT_PUBLIC_SANITY_API_VERSION: r.env.NEXT_PUBLIC_SANITY_API_VERSION,
                     NEXT_PUBLIC_SANITY_FORCE_USE_CDN: r.env.NEXT_PUBLIC_SANITY_USE_CDN,
-                    NEXT_PUBLIC_VERCEL_ENV: "production",
-                    NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF: "main",
-                    NEXT_PUBLIC_VERCEL_URL: "chintristan-6h3h2x9cr-chintristan.vercel.app",
-                    NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA: "a126c6493f29c1ad6650392d88cc1c7d09298a0a",
+                    NEXT_PUBLIC./_vercel_ENV: "production",
+                    NEXT_PUBLIC./_vercel_GIT_COMMIT_REF: "main",
+                    NEXT_PUBLIC./_vercel_URL: "chintristan-6h3h2x9cr-chintristan.vercel.app",
+                    NEXT_PUBLIC./_vercel_GIT_COMMIT_SHA: "a126c6493f29c1ad6650392d88cc1c7d09298a0a",
                     NEXT_PUBLIC_POSTHOG_KEY: "phc_L9N6ZCR0GxaGCMIM8u8Cu9BIujpyu2rQzhCAIdFUQad"
                 }
             })

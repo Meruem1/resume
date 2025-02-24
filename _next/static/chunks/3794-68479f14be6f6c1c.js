@@ -161,7 +161,7 @@
                             }
                             window.vam = e
                         })(t.mode), o(), t.beforeSend && (null == (e = window.va) || e.call(window, "beforeSend", t.beforeSend));
-                        let n = t.scriptSrc || (s() ? "https://va.vercel-scripts.com/v1/script.debug.js" : "/_vercel/insights/script.js");
+                        let n = t.scriptSrc || (s() ? "https://va.vercel-scripts.com/v1/script.debug.js" : "/./_vercel/insights/script.js");
                         if (document.head.querySelector('script[src*="'.concat(n, '"]'))) return;
                         let r = document.createElement("script");
                         r.src = n, r.defer = !0, r.dataset.sdkn = "@vercel/analytics" + (t.framework ? "/".concat(t.framework) : ""), r.dataset.sdkv = "1.3.1", t.disableAutoTrack && (r.dataset.disableAutoTrack = "1"), t.endpoint && (r.dataset.endpoint = t.endpoint), t.dsn && (r.dataset.dsn = t.dsn), r.onerror = () => {
@@ -282,7 +282,7 @@
                             if (!("undefined" != typeof window) || null === t.route) return null;
                             o();
                             let n = !!t.dsn,
-                                r = t.scriptSrc || (n ? i : "/_vercel/speed-insights/script.js");
+                                r = t.scriptSrc || (n ? i : "/./_vercel/speed-insights/script.js");
                             if (document.head.querySelector('script[src*="'.concat(r, '"]'))) return null;
                             t.beforeSend && (null == (e = window.si) || e.call(window, "beforeSend", t.beforeSend));
                             let a = document.createElement("script");

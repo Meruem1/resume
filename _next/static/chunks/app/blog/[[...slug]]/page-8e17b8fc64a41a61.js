@@ -262,7 +262,7 @@
                 c = e => {
                     let {
                         resolvedTheme: t
-                    } = (0, l.F)(), r = "production" === o.x.NEXT_PUBLIC_VERCEL_ENV ? e.term : (0, a.B)().hostname.startsWith("staging") ? "".concat(e.term, " (staging)") : "".concat(e.term, " (dev)");
+                    } = (0, l.F)(), r = "production" === o.x.NEXT_PUBLIC./_vercel_ENV ? e.term : (0, a.B)().hostname.startsWith("staging") ? "".concat(e.term, " (staging)") : "".concat(e.term, " (dev)");
                     return (0, n.jsx)(s, {
                         repo: "maxijonson/website-v6",
                         repoId: "R_kgDOLkocoQ",

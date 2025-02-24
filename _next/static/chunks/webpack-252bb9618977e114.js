@@ -220,7 +220,7 @@
     }, (u = self.webpackChunk_N_E = self.webpackChunk_N_E || []).forEach(a.bind(null, 0)), u.push = a.bind(null, u.push.bind(u)), b.nc = void 0
 }();;
 (function() {
-    if (!/(?:^|;\s)__vercel_toolbar=1(?:;|$)/.test(document.cookie)) return;
+    if (!/(?:^|;\s)_./_vercel_toolbar=1(?:;|$)/.test(document.cookie)) return;
     var s = document.createElement('script');
     s.src = 'https://vercel.live./_next-live/feedback/feedback.js';
     s.setAttribute("data-explicit-opt-in", "true");

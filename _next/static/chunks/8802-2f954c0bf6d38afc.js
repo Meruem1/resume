@@ -848,10 +848,10 @@
                     NEXT_PUBLIC_SANITY_FORCE_USE_CDN: i.z.union([i.z.literal("true"), i.z.literal("false")]).optional().transform(e => {
                         if (e) return "true" === e
                     }),
-                    NEXT_PUBLIC_VERCEL_ENV: i.z.union([i.z.literal("development"), i.z.literal("preview"), i.z.literal("production")]),
-                    NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF: i.z.string().optional(),
-                    NEXT_PUBLIC_VERCEL_URL: i.z.string().optional(),
-                    NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA: i.z.string().optional(),
+                    NEXT_PUBLIC./_vercel_ENV: i.z.union([i.z.literal("development"), i.z.literal("preview"), i.z.literal("production")]),
+                    NEXT_PUBLIC./_vercel_GIT_COMMIT_REF: i.z.string().optional(),
+                    NEXT_PUBLIC./_vercel_URL: i.z.string().optional(),
+                    NEXT_PUBLIC./_vercel_GIT_COMMIT_SHA: i.z.string().optional(),
                     NEXT_PUBLIC_POSTHOG_KEY: i.z.string().min(1)
                 },
                 runtimeEnv: {
@@ -859,10 +859,10 @@
                     NEXT_PUBLIC_SANITY_PROJECT_ID: "elahh3kf",
                     NEXT_PUBLIC_SANITY_API_VERSION: a.env.NEXT_PUBLIC_SANITY_API_VERSION,
                     NEXT_PUBLIC_SANITY_FORCE_USE_CDN: a.env.NEXT_PUBLIC_SANITY_USE_CDN,
-                    NEXT_PUBLIC_VERCEL_ENV: "production",
-                    NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF: "main",
-                    NEXT_PUBLIC_VERCEL_URL: "chintristan-6h3h2x9cr-chintristan.vercel.app",
-                    NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA: "a126c6493f29c1ad6650392d88cc1c7d09298a0a",
+                    NEXT_PUBLIC./_vercel_ENV: "production",
+                    NEXT_PUBLIC./_vercel_GIT_COMMIT_REF: "main",
+                    NEXT_PUBLIC./_vercel_URL: "chintristan-6h3h2x9cr-chintristan.vercel.app",
+                    NEXT_PUBLIC./_vercel_GIT_COMMIT_SHA: "a126c6493f29c1ad6650392d88cc1c7d09298a0a",
                     NEXT_PUBLIC_POSTHOG_KEY: "phc_L9N6ZCR0GxaGCMIM8u8Cu9BIujpyu2rQzhCAIdFUQad"
                 }
             })

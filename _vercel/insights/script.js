@@ -15,7 +15,7 @@
                 let t = e => e,
                     n = document,
                     a = n.currentScript,
-                    r = (null == a ? void 0 : a.dataset.endpoint) || (null != a && a.src.includes("/va/") ? "/va" : "/_vercel/insights"),
+                    r = (null == a ? void 0 : a.dataset.endpoint) || (null != a && a.src.includes("/va/") ? "/va" : "/./_vercel/insights"),
                     i = null == a ? void 0 : a.dataset.disableAutoTrack,
                     o = null,
                     l = null,
